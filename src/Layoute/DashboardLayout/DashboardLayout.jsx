@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Navbar = () => {
+const DashboardLayout = () => {
     return (
         <div>
-            Navebar
+            
         </div>
     );
 };
 
-export default Navbar;
+export default DashboardLayout;

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Route = () => {
+const HomePage = () => {
     return (
         <div>
-            
+            This Is Home Page.
         </div>
     );
 };
 
-export default Route;
+export default HomePage;
