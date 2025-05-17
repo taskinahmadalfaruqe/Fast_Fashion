@@ -1,4 +1,25 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-    themes: light --default
+  themes: light --default;
+}
+@theme {
+
+  --color-Primary_Color: #04E762;
+  --color-Blue_Color: #264653;
+  --color-Button_BG: #008585;
+  --color-Button_Border: #c7522a;
+  --color-Black_Color: #020202;
+  --color-White_Color: #fff;
+  --color-Accent_Color: #433BFF;
+}
+@layer components {
+  .typography {
+    color: var(--color-gray-950);
+    a {
+      color: var(--color-blue-500);
+      &:hover {
+        color: var(--color-blue-800);
+      }
+    }
   }
+}
