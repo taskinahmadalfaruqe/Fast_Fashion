@@ -4,6 +4,10 @@ import HomePage from "../Page/HomePage/HomePage";
 import ErrorPage from "../Page/ErrorPage/ErrorPage";
 import ContactPage from "../Page/ContactPage/ContactPage";
 import ProductPage from "../Page/ProductPage/ProductPage";
+import AboutUS from "../Page/AboutUS/AboutUS";
+import Journal from "../Page/Journal/Journal";
+import LoginPage from "../Page/LoginPage/LoginPage";
+import SignUpPage from "../Page/SignUpPage/SignUpPage";
 
 const Router = createBrowserRouter([
     {
@@ -16,12 +20,28 @@ const Router = createBrowserRouter([
                 element: <HomePage></HomePage>
             },
             {
+                path: '/ProductPage',
+                element: <ProductPage></ProductPage>
+            },
+            {
+                path: '/AboutUS',
+                element: <AboutUS></AboutUS>
+            },
+            {
                 path: '/ContactPage',
                 element: <ContactPage></ContactPage>
             },
             {
-                path: '/ProductPage',
-                element: <ProductPage></ProductPage>
+                path: '/Journal',
+                element: <Journal></Journal>
+            },
+            {
+                path: '/user/login',
+                element: <LoginPage></LoginPage>
+            },
+            {
+                path: '/auth/newUser/signUpPage',
+                element: <SignUpPage></SignUpPage>
             },
 
         ]
