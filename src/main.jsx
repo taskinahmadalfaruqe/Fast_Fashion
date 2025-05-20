@@ -15,6 +15,6 @@ if (theme === 'dark' || theme === null) {
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={Router} />
+    <RouterProvider router={Router}/>
   </StrictMode>,
 )

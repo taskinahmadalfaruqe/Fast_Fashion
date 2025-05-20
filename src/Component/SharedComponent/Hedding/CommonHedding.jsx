@@ -5,7 +5,7 @@ const CommonHedding = ({ FastPart, SecondPart, PageLink }) => {
     return (
         <div className='font-bold text-2xl mb-3'>
             <Link to={PageLink}>
-                <span>{FastPart}</span>
+                <span className='dark:text-White_Color'>{FastPart}</span>
                 <span className='text-Blue_color'>{SecondPart}</span>
             </Link>
         </div>
