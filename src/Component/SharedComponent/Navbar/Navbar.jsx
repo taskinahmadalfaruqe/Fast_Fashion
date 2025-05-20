@@ -92,7 +92,7 @@ const UserNavItems = (
 const Navbar = () => {
     return (
         <div className='bg-Primary_Color'>
-            <div className="container border border-Button_Border navbar mx-auto shadow-sm">
+            <div className="container mt-0 navbar">
 
                 {/* WebPage Logo  */}
                 <div className="navbar-start">

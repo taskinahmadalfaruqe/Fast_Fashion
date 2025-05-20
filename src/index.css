@@ -3,24 +3,25 @@
 @plugin "daisyui" {
   themes: light --default;
 }
-@theme {
 
-  --color-Primary_Color: #04E762;
-  --color-Blue_Color: #264653;
-  --color-Button_BG: #008585;
-  --color-Button_Border: #c7522a;
-  --color-Black_Color: #020202;
+@theme {
+  /* Color veriable  */
+  --color-Primary_Color: #d8d8d8;
+  --color-Gray_Color: #979797;
+  --color-Black_Color: #262626;
   --color-White_Color: #fff;
-  --color-Accent_Color: #433BFF;
+  --color-Blue_color: #008585;
+  --color-Orange_Color: #c7522a;
+
+  /* Gooogle font  */
+  --font-sans: InterVariable, sans-serif;
+  --font-DM-Sans: InterVariable, "DM Sans", sans-serif;
 }
-@layer components {
-  .typography {
-    color: var(--color-gray-950);
-    a {
-      color: var(--color-blue-500);
-      &:hover {
-        color: var(--color-blue-800);
-      }
-    }
-  }
+.container {
+  margin: 0px auto 20px;
+}
+body {
+  background-color: var(--color-White_Color);
+  color: var(--color-Black_Color);
+  font-family: var(--font-DM-Sans);
 }
