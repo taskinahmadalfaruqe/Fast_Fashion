@@ -36,7 +36,7 @@ const Router = createBrowserRouter([
                 element: <Journal></Journal>
             },
             {
-                path: '/user/login',
+                path: '/User/Login',
                 element: <LoginPage></LoginPage>
             },
             {

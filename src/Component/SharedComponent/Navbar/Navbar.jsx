@@ -1,5 +1,6 @@
 import { FaBars } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
+import { CiDark, CiLight } from 'react-icons/ci';
 const UserNavItems = (
     <div className="flex flex-col gap-1 lg:flex-row justify-start lg:justify-center lg:items-center font-semibold  uppercase text-base text-Black_Color">
 
@@ -65,7 +66,7 @@ const UserNavItems = (
 
         {/* login Page  */}
         <NavLink
-            to={"/user/login"}
+            to={"/User/Login"}
             className={({ isActive }) =>
                 isActive
                     ? "bg-White_Color  p-1 px-3 rounded-md"
