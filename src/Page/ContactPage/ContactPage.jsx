@@ -6,7 +6,7 @@ import FindPathname from '../../Hooks/FindPathname/FindPathname';
 const ContactPage = () => {
     return (
         <div className='container'>
-            <CommonHedding FastPart={"Con"} SecondPart={"tact"} PageLink={"/"}></CommonHedding>
+            <CommonHedding FastPart={"Con"} SecondPart={"tacts"} PageLink={"/"}></CommonHedding>
             <FindPathname></FindPathname>
             <CommonButton ButtonName={"Home"} NavigateLink={"/"}></CommonButton>
         </div >
