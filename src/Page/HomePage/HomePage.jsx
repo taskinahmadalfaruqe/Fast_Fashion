@@ -1,17 +1,10 @@
-import CommonButton from '../../Component/SharedComponent/Button/CommonButton';
-import CommonHedding from '../../Component/SharedComponent/Hedding/CommonHedding';
-import FindPathname from '../../Hooks/FindPathname/FindPathname';
-import Carousel from '../../Component/Slider/Carousel' 
+import Carousel from '../../Component/HomePage/Slider/Carousel'
 
 const HomePage = () => {
     return (
         <div className='container'>
-            <CommonHedding FastPart={"Ho"} SecondPart={"me"} PageLink={"/"}></CommonHedding>
-            <FindPathname></FindPathname>
-            <CommonButton ButtonName={"Home"} NavigateLink={"/"}></CommonButton>
-            
-            <div className='h-[400px] w-full mt-3'>
-               <Carousel></Carousel>
+            <div className='h-[70vh] w-full'>
+                <Carousel className="h-full"></Carousel>
             </div>
         </div >
     );
