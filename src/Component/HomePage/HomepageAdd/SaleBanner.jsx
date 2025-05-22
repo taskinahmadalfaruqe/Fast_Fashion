@@ -1,5 +1,5 @@
 import React from "react";
-import CommonButton from "../SharedComponent/Button/CommonButton";
+import CommonButton from "../../SharedComponent/Button/CommonButton";
 
 const SaleBanner = () => {
   const sales = [

@@ -9,7 +9,7 @@ import './styles.css';
 
 import { Mousewheel, Pagination, Autoplay } from 'swiper/modules';
 
-export default function App() {
+export default function SimpleSwiper() {
   return (
     <div className="h-[70vh] w-full">
       <Swiper
@@ -37,4 +37,4 @@ export default function App() {
       </Swiper>
     </div>
   );
-}
+};
