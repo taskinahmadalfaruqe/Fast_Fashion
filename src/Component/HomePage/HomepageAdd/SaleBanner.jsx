@@ -7,19 +7,19 @@ const SaleBanner = () => {
       title: "Phones Sale",
       discount: "30%",
       description: "Up to 30% sale for all phones!",
-      image: "/src/Assests/phone.jpg",
+      image: "./../../../Assests/SellBord/phone.jpg",
     },
     {
       title: "Electronics Sale",
       discount: "70%",
       description: "Up to 70% sale for all electronics!",
-      image: "/src/Assests/electronics.jpg",
+      image: "./../../../Assests/SellBord/electronics.jpg",
     },
     {
       title: "Furniture Offer",
       discount: "50%",
       description: "Up to 50% sale for all furniture items!",
-      image: "/src/Assests/furniture.jpeg",
+      image: "./../../../Assests/SellBord/furniture.jpeg",
     },
   ];
 
