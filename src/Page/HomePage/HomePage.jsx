@@ -6,6 +6,7 @@ const HomePage = () => {
             <div className='h-[70vh] w-full'>
                 <Carousel className="h-full"></Carousel>
             </div>
+           <SeleBanner></SeleBanner>
         </div >
     );
 };
