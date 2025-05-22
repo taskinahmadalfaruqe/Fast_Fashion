@@ -22,7 +22,7 @@ export default function App() {
         }}
         mousewheel={true}
         pagination={{ clickable: true }}
-        modules={[Mousewheel, Pagination, Autoplay]} // ✅ include Autoplay
+        modules={[Mousewheel, Pagination, Autoplay]}
         className="h-full w-full"
       >
         <SwiperSlide className="h-full w-full">
