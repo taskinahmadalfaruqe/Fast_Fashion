@@ -1,7 +1,8 @@
 import CommonButton from '../../Component/SharedComponent/Button/CommonButton';
 import CommonHedding from '../../Component/SharedComponent/Hedding/CommonHedding';
 import FindPathname from '../../Hooks/FindPathname/FindPathname';
-import Carousel from '../../Component/Slider/Carousel' 
+import Carousel from '../../Component/Slider/Carousel'
+import SeleBanner from '../../Component/HomepageAdd/SaleBanner' 
 
 const HomePage = () => {
     return (
@@ -10,9 +11,10 @@ const HomePage = () => {
             <FindPathname></FindPathname>
             <CommonButton ButtonName={"Home"} NavigateLink={"/"}></CommonButton>
             
-            <div className='h-[400px] w-full mt-3'>
+            <div className='h-[400px]  min-w-full mt-3'>
                <Carousel></Carousel>
             </div>
+           <SeleBanner></SeleBanner>
         </div >
     );
 };
