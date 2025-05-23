@@ -1,7 +1,4 @@
 import CommonButton from "../../SharedComponent/Button/CommonButton";
-import phone from "./../../../Assests/SellBord/phone.jpg";
-import electronics from "./../../../Assests/SellBord/electronics.jpg";
-import furniture from "./../../../Assests/SellBord/furniture.jpeg";
 
 const SaleBanner = () => {
   const sales = [
@@ -9,19 +6,19 @@ const SaleBanner = () => {
       title: "Phones Sale",
       discount: "30%",
       description: "Up to 30% sale for all phones!",
-      image: "/src/Assests/SellBord/phone.jpg",
+      image: "/phone.jpg",
     },
     {
       title: "Electronics Sale",
       discount: "70%",
       description: "Up to 70% sale for all electronics!",
-      image: "/src/Assests/SellBord/electronics.jpg",
+      image: "electronics.jpg",
     },
     {
       title: "Furniture Offer",
       discount: "50%",
       description: "Up to 50% sale for all furniture items!",
-      image: "/src/Assests/SellBord/furniture.jpeg",
+      image: "/furniture.jpeg",
     },
   ];
 
@@ -67,7 +64,7 @@ const SaleBanner = () => {
                 <img
                   src={sale.image}
                   alt={sale.title}
-                  className="w-28 h-28 object-contain"
+                  className="w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40 xl:w-52 xl:h-52 object-contain"
                 />
               </div>
             ))}
