@@ -3,16 +3,15 @@ import SimpleSwiper from "../../Component/HomePage/Slider/Carousel";
 
 const HomePage = () => {
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto flex flex-col lg:gap-8 ">
             {/* Swiper Section */}
-            <div className="relative z-10 w-full h-[400px]">
+            <div className="w-full py-10 bg-Primary_Color dark:bg-Dark_BG_Color">
                 <SimpleSwiper />
             </div>
 
             {/* SaleBanner Section */}
-            <div className="relative z-14">
-                <SaleBanner />
-            </div>
+            <SaleBanner />
+
         </div>
     );
 };
