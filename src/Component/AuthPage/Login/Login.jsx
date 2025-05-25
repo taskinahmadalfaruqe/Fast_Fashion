@@ -15,7 +15,7 @@ const Login = () => {
       {/* Returning Customer Section */}
       <section className="border-b pb-10">
         <CommonHedding FastPart={"Returning"} SecondPart={" Customer"} />
-        
+
         <form className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl">
           {/* Email Field */}
           <div>
@@ -47,7 +47,7 @@ const Login = () => {
 
           {/* Login Button */}
           <div className="md:col-span-2">
-           <CommonButton ButtonName={"Log in"} />
+            <CommonButton ButtonName={"Log in"} />
           </div>
         </form>
       </section>
@@ -59,7 +59,7 @@ const Login = () => {
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
           been the industry’s standard dummy text ever since this.
         </p>
-       <CommonButton ButtonName={"Continue"} />
+        <CommonButton ButtonName={"Continue"} />
       </section>
     </div>
   );
