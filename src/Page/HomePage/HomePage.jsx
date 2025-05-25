@@ -1,4 +1,5 @@
 import SaleBanner from "../../Component/HomePage/HomepageAdd/SaleBanner";
+import NewArival from "../../Component/HomePage/NewArival/NewArival";
 import SimpleSwiper from "../../Component/HomePage/Slider/Carousel";
 
 const HomePage = () => {
@@ -11,6 +12,9 @@ const HomePage = () => {
 
             {/* SaleBanner Section */}
             <SaleBanner />
+
+            {/* New Arival  */}
+            <NewArival></NewArival>
 
         </div>
     );

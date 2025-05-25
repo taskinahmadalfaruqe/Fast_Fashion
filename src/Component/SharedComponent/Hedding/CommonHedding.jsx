@@ -18,4 +18,4 @@ CommonHedding.propTypes = {
     PageLink: PropTypes.string,
 }
 
-export default CommonHedding
+export default CommonHedding;
