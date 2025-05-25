@@ -14,7 +14,7 @@ const Login = () => {
 
       {/* Returning Customer Section */}
       <section className="border-b pb-10">
-        <CommonHedding FastPart={"Returning"} SecondPart={"Customer"} />
+        <CommonHedding FastPart={"Returning"} SecondPart={" Customer"} />
         
         <form className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl">
           {/* Email Field */}
@@ -54,7 +54,7 @@ const Login = () => {
 
       {/* New Customer Section */}
       <section className="pt-4 ">
-        <CommonHedding FastPart={"New"} SecondPart={"Customer"} />
+        <CommonHedding FastPart={"New"} SecondPart={" Customer"} />
         <p className="text-sm text-Gray_Color dark:text-White_Color mb-6 max-w-3xl">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
           been the industry’s standard dummy text ever since this.
