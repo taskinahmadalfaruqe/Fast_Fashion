@@ -75,20 +75,93 @@ const Signup = () => {
                 <CommonHedding FastPart={"New"} SecondPart={" Customer"} />
 
                 <form className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
-                    <input type="text" placeholder="4279 Zion Car Port Suite 6372" className="w-full border-b border-Gray_Color rounded-sm py-2 px-3 focus:outline-none" required />
-                    <input type="text" placeholder="Address 2" className="w-full border-b border-b-Gray_Color rounded-sm py-2 px-3 focus:outline-none" />
-                    <input type="text" placeholder="Your city" className="w-full border-b border-b-Gray_Color rounded-sm py-2 px-3 focus:outline-none" required />
-                    <input type="text" placeholder="03128" className="w-full border-b border-b-Gray_Color rounded-sm py-2 px-3 focus:outline-none" required />
-                    <select className="border-b border-Gray_Color text-Gray_Color dark:text-White_Color bg-Primary_Color dark:bg-Dark_BG_Color py-2 px-3" required>
-                        <option>Please select</option>
-                        <option>USA</option>
-                        <option>UK</option>
-                    </select>
-                    <select className="border-b border-b-Gray_Color text-Gray_Color dark:text-White_Color bg-Primary_Color dark:bg-Dark_BG_Color py-2 px-3" required>
-                        <option>Please select</option>
-                        <option>California</option>
-                        <option>Texas</option>
-                    </select>
+                    {/* Address 1 Field */}
+                    <div>
+                        <label htmlFor="Address 1"
+                            className="block text-sm font-medium text-Black_Color dark:text-White_Color mb-1">
+                            Address 1
+                        </label>
+                        <input
+                            type="text"
+                            placeholder="4279 Zion Car Port Suite 6372"
+                            className="w-full border-b border-Gray_Color rounded-sm py-2 px-3 focus:outline-none"
+                            required
+                        />
+                    </div>
+
+                    {/* Address 2 Field */}
+                    <div>
+                        <label htmlFor="Address 2"
+                            className="block text-sm font-medium text-Black_Color dark:text-White_Color mb-1">
+                            Address 2
+                        </label>
+                        <input
+                            type="text"
+                            placeholder="Address 2"
+                            className="w-full border-b border-b-Gray_Color rounded-sm py-2 px-3 focus:outline-none"
+                        />
+                    </div>
+
+                    {/* City Field */}
+                    <div>
+                        <label htmlFor="City"
+                            className="block text-sm font-medium text-Black_Color dark:text-White_Color mb-1">
+                            City
+                        </label>
+                        <input
+                            type="text"
+                            placeholder="Your city"
+                            className="w-full border-b border-b-Gray_Color rounded-sm py-2 px-3 focus:outline-none"
+                            required
+                        />
+                    </div>
+
+                    {/* Post code Field */}
+                    <div>
+                        <label htmlFor="Post Code"
+                            className="block text-sm font-medium text-Black_Color dark:text-White_Color mb-1">
+                            Post Code
+                        </label>
+                        <input
+                            type="text"
+                            placeholder="03128"
+                            className="w-full border-b border-b-Gray_Color rounded-sm py-2 px-3 focus:outline-none"
+                            required
+                        />
+                    </div>
+
+                    {/* Country Field */}
+                    <div>
+                        <label htmlFor="Country"
+                            className="block text-sm font-medium text-Black_Color dark:text-White_Color mb-1">
+                            Country
+                        </label>
+                        <select
+                            className="w-full border-b border-Gray_Color text-Gray_Color dark:text-White_Color bg-Primary_Color dark:bg-Dark_BG_Color py-2 px-3"
+                            required>
+                            <option>Please select</option>
+                            <option>Bangladesh</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                        </select>
+                    </div>
+
+                    {/* Region/state Field */}
+                    <div>
+                        <label htmlFor="Region/State"
+                            className="block text-sm font-medium text-Black_Color dark:text-White_Color mb-1">
+                            Region/State
+                        </label>
+                        <select
+                            className="w-full border-b border-b-Gray_Color text-Gray_Color dark:text-White_Color bg-Primary_Color dark:bg-Dark_BG_Color py-2 px-3"
+                            required>
+                            <option>Please select</option>
+                            <option>Dhaka</option>
+                            <option>California</option>
+                            <option>Texas</option>
+                        </select>
+                    </div>
+
                 </form>
             </section>
 
@@ -97,6 +170,7 @@ const Signup = () => {
                 <CommonHedding FastPart={"Your"} SecondPart={" Password"} />
 
                 <form className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl">
+                    {/*Password field */}
                     <div>
                         <label htmlFor="password" className="block text-sm font-medium text-Black_Color dark:text-White_Color mb-1">
                             Password
@@ -108,7 +182,7 @@ const Signup = () => {
                             required >
                         </input>
                     </div>
-
+                    {/* Reapeat Password field  */}
                     <div>
                         <label htmlFor="Repeat password" className="block text-sm font-medium text-Black_Color dark:text-White_Color mb-1">
                             Repeat Password
@@ -121,14 +195,14 @@ const Signup = () => {
                         </input>
                     </div>
                 </form>
-
+                {/* Privacy and Policy Section  */}
                 <div className="flex items-center mt-4 space-x-2">
                     <input type="checkbox" id="agree" className="w-4 h-4" required />
                     <label htmlFor="agree" className="text-sm text-Gray_Color dark:text-White_Color">
                         I have read and agree to the Privacy Policy
                     </label>
                 </div>
-
+                {/* subscribe Newsletter Section  */}
                 <div className="flex items-center mt-4 space-x-4">
                     <label className="text-sm text-Gray_Color dark:text-White_Color">Subscribe Newsletter</label>
                     <label className="inline-flex items-center">
@@ -140,7 +214,7 @@ const Signup = () => {
                         <span className="ml-2">No</span>
                     </label>
                 </div>
-
+                {/* Log in Button  */}
                 <div className="mt-6">
                     <CommonButton ButtonName={"Log in"} />
                 </div>

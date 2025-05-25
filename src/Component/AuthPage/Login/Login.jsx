@@ -59,7 +59,8 @@ const Login = () => {
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
           been the industry’s standard dummy text ever since this.
         </p>
-        <CommonButton ButtonName={"Continue"} />
+        {/* Continue button  */}
+        <CommonButton ButtonName={"Continue"} NavigateLink={'/auth/newUser/signUpPage'}  />
       </section>
     </div>
   );
