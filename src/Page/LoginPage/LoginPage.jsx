@@ -1,8 +1,7 @@
 import React from 'react';
 import CommonHedding from '../../Component/SharedComponent/Hedding/CommonHedding';
 import FindPathname from '../../Hooks/FindPathname/FindPathname';
-import CommonButton from '../../Component/SharedComponent/Button/CommonButton';
-import Login from '../../Component/AuthPage/Login/Login';
+import Login from '../../AuthProvider/Login/Login';
 
 const LoginPage = () => {
     return (

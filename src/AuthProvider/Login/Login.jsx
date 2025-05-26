@@ -1,6 +1,5 @@
-import React from 'react';
-import CommonButton from '../../SharedComponent/Button/CommonButton';
-import CommonHedding from '../../SharedComponent/Hedding/CommonHedding';
+import CommonButton from '../../Component/SharedComponent/Button/CommonButton';
+import CommonHedding from '../../Component/SharedComponent/Hedding/CommonHedding';
 
 const Login = () => {
   return (
@@ -60,7 +59,7 @@ const Login = () => {
           been the industry’s standard dummy text ever since this.
         </p>
         {/* Continue button  */}
-        <CommonButton ButtonName={"Continue"} NavigateLink={'/auth/newUser/signUpPage'}  />
+        <CommonButton ButtonName={"Sign Up"} NavigateLink={'/auth/newUser/signUpPage'} />
       </section>
     </div>
   );

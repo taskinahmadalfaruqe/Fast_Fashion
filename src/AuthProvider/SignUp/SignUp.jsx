@@ -1,6 +1,5 @@
-import React from 'react';
-import CommonButton from '../../SharedComponent/Button/CommonButton';
-import CommonHedding from '../../SharedComponent/Hedding/CommonHedding';
+import CommonButton from '../../Component/SharedComponent/Button/CommonButton';
+import CommonHedding from '../../Component/SharedComponent/Hedding/CommonHedding';
 
 const Signup = () => {
     return (
