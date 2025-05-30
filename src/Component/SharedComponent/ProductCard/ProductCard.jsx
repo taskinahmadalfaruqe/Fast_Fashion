@@ -5,6 +5,9 @@ import { FaCartShopping, FaCodeCompare } from 'react-icons/fa6';
 const ProductCard = () => {
     return (
         <div className="relative max-w-60 group">
+            <div className='absolute top-0 left-0 bg-Orange_Color'>
+                New
+            </div>
             <div className='flex gap-5 flex-col ProductCardOverflow'>
                 <div className='bg-Card_Background_Color w-60 h-60 flex justify-center items-center p-5'>
                     <img src={pic} alt="Product Image" />
