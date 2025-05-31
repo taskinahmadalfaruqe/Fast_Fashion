@@ -1,6 +1,5 @@
 import { FaBars } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
-import { MdDarkMode, MdLightMode } from 'react-icons/md';
 import DarkModeToggle from '../../DarkMood/DarkControl';
 
 const navLinks = [
