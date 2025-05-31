@@ -26,6 +26,7 @@ body {
   background-color: var(--color-White_Color);
   color: var(--color-Black_Color);
   font-family: var(--font-DM-Sans);
+  min-height: 100vh;
 }
 .dark body {
   background-color: var(--color-Black_Color);
