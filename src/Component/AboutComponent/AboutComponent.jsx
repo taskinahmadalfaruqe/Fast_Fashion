@@ -9,7 +9,7 @@ const AboutComponent = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="flex flex-col items-center text-center space-y-4 bg-Primary_Color dark:bg-Dark_BG_Color">
           <img
-            src="./public/phone.jpg" 
+            src="./phone.jpg" 
             alt="Our Brands"
             className="items-center h-80 w-80s max-w-xs object-contain"
           />
@@ -17,7 +17,7 @@ const AboutComponent = () => {
         </div>
         <div className="flex flex-col items-center text-center space-y-4 bg-Primary_Color dark:bg-Dark_BG_Color">
           <img
-            src="./public/electronics.jpg" 
+            src="./electronics.jpg" 
             alt="Our Stores"
             className="h-80 w-80 max-w-xs object-contain items-center"
           />

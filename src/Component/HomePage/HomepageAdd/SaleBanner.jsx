@@ -24,7 +24,7 @@ const SaleBanner = () => {
 
   return (
     <div className="lg:mb-5">
-      <div className="p-5 lg:p-0">
+      <div className="p-5 xl:p-0">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10">
 
           {/* Left Part  */}
