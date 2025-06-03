@@ -38,7 +38,9 @@ const Navbar = () => {
             <div className="container navbar" style={{ marginBottom: 0 }}>
                 {/* Logo */}
                 <div className="navbar-start">
-                    <a className="btn btn-ghost text-xl">Fast Fashion</a>
+                    <a href="/" className='w-24'>
+                    <img src="/logo.png" alt="logo" />
+                    </a>
                 </div>
 
                 <div className="navbar-end flex gap-3 items-center">
