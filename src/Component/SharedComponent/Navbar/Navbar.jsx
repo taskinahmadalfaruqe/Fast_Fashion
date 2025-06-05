@@ -34,11 +34,11 @@ const UserNavItems = (
 
 const Navbar = () => {
     return (
-        <div className="bg-White_Color dark:bg-Blue_color py-3">
-            <div className="container navbar" style={{ marginBottom: 0 }}>
+        <div className="bg-White_Color dark:bg-Blue_color py-1 border-b-2 border-Primary_Color dark:border-White_Color">
+            <div className="container navbar p-0 m-0 flex justify-between items-center" style={{ marginBottom: 0 }}>
                 {/* Logo */}
-                <div className="navbar-start">
-                    <a href="/" className='w-24'>
+                <div className="navbar-start w-fit">
+                    <a href="/" className='w-24 h-16'>
                     <img src="/logo.png" alt="logo" />
                     </a>
                 </div>

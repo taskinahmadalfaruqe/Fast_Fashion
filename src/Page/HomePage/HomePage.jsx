@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div className="container mx-auto flex flex-col lg:gap-8 ">
             {/* Swiper Section */}
-            <div className="w-full py-10 bg-Primary_Color dark:bg-Dark_BG_Color">
+            <div className="w-full pb-10 bg-Primary_Color dark:bg-Dark_BG_Color">
                 <SimpleSwiper />
             </div>
 
