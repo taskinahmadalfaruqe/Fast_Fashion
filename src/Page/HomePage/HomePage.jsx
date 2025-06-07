@@ -1,6 +1,8 @@
+import BestSell from "../../Component/HomePage/BestSell/BestSell";
 import SaleBanner from "../../Component/HomePage/HomepageAdd/SaleBanner";
 import NewArival from "../../Component/HomePage/NewArival/NewArival";
 import SimpleSwiper from "../../Component/HomePage/Slider/Carousel";
+import SpecialOffers from "../../Component/HomePage/SpecialOffers/SpecialOffers";
 
 const HomePage = () => {
     return (
@@ -15,6 +17,12 @@ const HomePage = () => {
 
             {/* New Arival  */}
             <NewArival></NewArival>
+
+            {/* Best Sell */}
+            <BestSell></BestSell>
+
+            {/* Seacial Offers */}
+            <SpecialOffers></SpecialOffers>
 
         </div>
     );
