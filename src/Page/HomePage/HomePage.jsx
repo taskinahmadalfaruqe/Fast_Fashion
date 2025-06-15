@@ -1,6 +1,7 @@
 import BestSell from "../../Component/HomePage/BestSell/BestSell";
 import SaleBanner from "../../Component/HomePage/HomepageAdd/SaleBanner";
 import NewArival from "../../Component/HomePage/NewArival/NewArival";
+import ProductOfTheYear from "../../Component/HomePage/ProductOfTheYear/ProductOfTheYear";
 import SimpleSwiper from "../../Component/HomePage/Slider/Carousel";
 import SpecialOffers from "../../Component/HomePage/SpecialOffers/SpecialOffers";
 
@@ -20,6 +21,9 @@ const HomePage = () => {
 
             {/* Best Sell */}
             <BestSell></BestSell>
+
+            {/* Product Of The Year */}
+            <ProductOfTheYear></ProductOfTheYear>
 
             {/* Seacial Offers */}
             <SpecialOffers></SpecialOffers>
