@@ -8,17 +8,17 @@ const ProductCard = () => {
 
     return (
         <div
-            className="relative group bg-Primary_Color dark:bg-Dark_BG_Color rounded-bl-2xl rounded-tr-2xl p-3 lg:p-5 flex gap-5 justify-center items-center flex-col"
+            className="relative group bg-Card_Background_Color dark:bg-Dark_BG_Color rounded-bl-2xl rounded-tr-2xl p-3 lg:p-5 flex gap-5 justify-center items-center flex-col"
             onClick={() => setShowMenu(prev => !prev)}
         >
-            <div className='absolute top-6 left-6 bg-Orange_Color px-2 py-1 rounded-md text-White_Color z-50'>
+            <div className='absolute top-8 left-8 bg-Orange_Color px-2 py-1 rounded-md text-White_Color z-50'>
                 New
             </div>
 
             <div className='flex gap-5 flex-col'>
-                <div className='w-64 h-64 flex justify-center items-center p-5 rounded-md'>
+                <div className='w-64 max-h-64 flex justify-center items-center p-5 rounded-md bg-Card_Background_Color'>
                     {pic ? (
-                        <img src={pic} alt="Product" className="object-contain w-full h-full" />
+                        <img src={pic} alt="Product" className=" w-full h-full rounded-xl overflow-hidden" />
                     ) : (
                         <div className="animate-pulse bg-Card_Background_Color dark:bg-gray-700 w-full h-full rounded-md"></div>
                     )}
