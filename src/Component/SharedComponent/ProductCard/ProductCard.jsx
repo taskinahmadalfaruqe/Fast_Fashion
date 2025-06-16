@@ -8,7 +8,7 @@ const ProductCard = () => {
 
     return (
         <div
-            className="relative group bg-Card_Background_Color dark:bg-Dark_BG_Color rounded-bl-2xl rounded-tr-2xl p-3 lg:p-5 flex gap-5 justify-center items-center flex-col"
+            className="relative group bg-Card_Background_Color hover:bg-Hover_Card_Background_Color dark:bg-Dark_BG_Color rounded-bl-2xl rounded-tr-2xl p-3 lg:p-5 flex gap-5 justify-center items-center flex-col"
             onClick={() => setShowMenu(prev => !prev)}
         >
             <div className='absolute top-8 left-8 bg-Orange_Color px-2 py-1 rounded-md text-White_Color z-50'>
@@ -32,7 +32,7 @@ const ProductCard = () => {
                             <span>88</span>
                         </div>
                     </div>
-                    <p>Black</p>
+                    <p className='uppercase'>Brand:</p>
                 </div>
             </div>
             <div

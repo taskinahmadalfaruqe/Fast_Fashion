@@ -2,7 +2,7 @@ import CommonButton from '../../SharedComponent/Button/CommonButton';
 import phone from '/phone.jpg';
 const ProductOfTheYear = () => {
     return (
-        <div className='flex flex-col md:flex-row gap-5 justify-between items-center md:h-[200px] p-5 lg:p-5 bg-Primary_Color dark:bg-Dark_BG_Color rounded-bl-xl rounded-tr-xl overflow-hidden'>
+        <div className='flex flex-col md:flex-row gap-5 justify-between items-center md:h-[200px] p-5 lg:p-5 bg-Card_Background_Color dark:bg-Dark_BG_Color rounded-bl-xl rounded-tr-xl overflow-hidden'>
             <div className='h-full flex-1 flex justify-center items-center '>
                 <img className='h-full rounded-bl-md rounded-tr-md overflow-hidden' src={phone} alt="BestProduct" />
             </div>
