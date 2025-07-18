@@ -1,5 +1,5 @@
 import CommonButton from '../../Component/SharedComponent/Button/CommonButton';
-import CommonHedding from '../../Component/SharedComponent/Hedding/CommonHedding';
+import CommonHedding from '../../Component/SharedComponent/CommonHedding/CommonHedding';
 
 const Login = () => {
   return (
@@ -8,7 +8,7 @@ const Login = () => {
       {/* Intro Text */}
       <p className="text-sm text-Gray_Color dark:text-White_Color text-center md:text-left">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-        been the industry’s standard dummy text ever since this.
+        been the industry s standard dummy text ever since this.
       </p>
 
       {/* Returning Customer Section */}

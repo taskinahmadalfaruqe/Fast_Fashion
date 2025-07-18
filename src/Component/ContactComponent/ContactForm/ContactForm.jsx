@@ -1,6 +1,5 @@
-import React from 'react';
-import CommonHedding from '../../SharedComponent/Hedding/CommonHedding';
 import CommonButton from '../../SharedComponent/Button/CommonButton';
+import CommonHedding from '../../SharedComponent/CommonHedding/CommonHedding';
 
 const ContactForm = () => {
     return (

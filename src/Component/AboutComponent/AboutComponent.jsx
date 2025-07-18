@@ -1,6 +1,5 @@
-import React from 'react';
 import CommonButton from '../SharedComponent/Button/CommonButton';
-import CommonHedding from '../SharedComponent/Hedding/CommonHedding';
+import CommonHedding from "../SharedComponent/CommonHedding/CommonHedding";
 
 const AboutComponent = () => {
   return (

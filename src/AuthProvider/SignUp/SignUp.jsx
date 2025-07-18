@@ -1,5 +1,5 @@
 import CommonButton from '../../Component/SharedComponent/Button/CommonButton';
-import CommonHedding from '../../Component/SharedComponent/Hedding/CommonHedding';
+import CommonHedding from '../../Component/SharedComponent/CommonHedding/CommonHedding';
 
 const Signup = () => {
     return (

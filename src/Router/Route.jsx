@@ -6,8 +6,8 @@ import ContactPage from "../Page/ContactPage/ContactPage";
 import ProductPage from "../Page/ProductPage/ProductPage";
 import AboutUS from "../Page/AboutUS/AboutUS";
 import Journal from "../Page/Journal/Journal";
-import LoginPage from "../Page/LoginPage/LoginPage";
 import SignUpPage from "../Page/SignUpPage/SignUpPage";
+import LoginPage from "../Page/LoginPage/LoginPage";
 
 const Router = createBrowserRouter([
     {

@@ -1,7 +1,6 @@
-import React from 'react';
-import CommonHedding from './../../Component/SharedComponent/Hedding/CommonHedding';
-import FindPathname from '../../Hooks/FindPathname/FindPathname';
 import Signup from '../../AuthProvider/SignUp/SignUp';
+import CommonHedding from '../../Component/SharedComponent/CommonHedding/CommonHedding';
+import FindPathname from '../../Hooks/FindPathname/FindPathname';
 
 const SignUpPage = () => {
     return (

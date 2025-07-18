@@ -1,7 +1,6 @@
-import React from 'react';
-import CommonHedding from '../../Component/SharedComponent/Hedding/CommonHedding';
-import FindPathname from '../../Hooks/FindPathname/FindPathname';
-import Login from '../../AuthProvider/Login/Login';
+import Login from "../../AuthProvider/Login/Login";
+import CommonHedding from "../../Component/SharedComponent/CommonHedding/CommonHedding";
+import FindPathname from "../../Hooks/FindPathname/FindPathname";
 
 const LoginPage = () => {
     return (

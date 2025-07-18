@@ -1,6 +1,5 @@
-import React from 'react';
-import ProductCard from '../../SharedComponent/ProductCard/ProductCard';
-import CommonHedding from '../../SharedComponent/Hedding/CommonHedding';
+import CommonHedding from "../../SharedComponent/CommonHedding/CommonHedding";
+import ProductCard from "../../SharedComponent/ProductCard/ProductCard";
 
 const SpecialOffers = () => {
     return (

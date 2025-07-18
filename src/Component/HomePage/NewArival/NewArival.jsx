@@ -1,4 +1,4 @@
-import CommonHedding from '../../SharedComponent/Hedding/CommonHedding';
+import CommonHedding from '../../SharedComponent/CommonHedding/CommonHedding';
 import ProductCard from '../../SharedComponent/ProductCard/ProductCard';
 
 const NewArival = () => {
