@@ -1,7 +1,6 @@
 import { FaBars } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 import DarkModeToggle from '../../NavbarCoponets/DarkMood/DarkControl';
-import Cart from '../../NavbarCoponets/Cart/Cart';
 
 const navLinks = [
     { to: '/', label: 'Home' },
@@ -35,10 +34,10 @@ const UserNavItems = (
 const Navbar = () => {
     return (
         <div className="bg-White_Color dark:bg-Blue_color py-1 border-b-2 border-Primary_Color dark:border-White_Color">
-            <div className="container navbar p-0 m-0 flex justify-between items-center" style={{ marginBottom: 0 }}>
+            <div className="container navbar p-0 m-0 flex justify-between items-center" style={{ marginBottom: 0 , minHeight:"30px"}}>
                 {/* Logo */}
                 <div className="navbar-start w-fit">
-                    <a href="/" className='w-24 h-16'>
+                    <a href="/" className='w-14 h-10'>
                     <img src="/logo.png" alt="logo" />
                     </a>
                 </div>
@@ -63,7 +62,6 @@ const Navbar = () => {
                     {/* Desktop Menu */}
                     <div className="hidden lg:flex items-center gap-2 text-Black_Color dark:text-White_Color font-semibold uppercase text-base">
                         {UserNavItems}
-                        <Cart></Cart>
                         <DarkModeToggle></DarkModeToggle>
                     </div>
                 </div>
