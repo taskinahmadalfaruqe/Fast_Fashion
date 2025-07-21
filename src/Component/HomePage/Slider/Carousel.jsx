@@ -11,7 +11,7 @@ import { Mousewheel, Pagination, Autoplay } from 'swiper/modules';
 
 export default function SimpleSwiper() {
   return (
-    <div className="h-[60vh] w-full">
+    <div className="h-[70vh] w-full">
       <Swiper
         direction="vertical"
         slidesPerView={1}
