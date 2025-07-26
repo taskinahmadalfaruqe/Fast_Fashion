@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Lottie from 'lottie-react';
-import CommonButton from '../../Component/SharedComponent/Button/CommonButton';
+import CommonButton from '../../Component/SharedComponent/CommonButton/CommonButton';
+
 
 const ErrorPage = () => {
     const [animationData, setAnimationData] = useState(null);

@@ -1,4 +1,5 @@
 import React from 'react'
+import CommonButton from '../CommonButton/CommonButton';
 
 const ProductDetails = () => {
   return (
@@ -13,6 +14,7 @@ const ProductDetails = () => {
         <div>Product Color</div>
         <div>Product Sell</div>
         <div>Product Stock</div>
+        <CommonButton></CommonButton>
       </div>
     </div>
   )

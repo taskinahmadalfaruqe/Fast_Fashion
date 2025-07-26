@@ -1,4 +1,5 @@
-import CommonButton from '../../Component/SharedComponent/Button/CommonButton';
+
+import CommonButton from '../../Component/SharedComponent/CommonButton/CommonButton';
 import CommonHedding from '../../Component/SharedComponent/CommonHedding/CommonHedding';
 
 const Login = () => {

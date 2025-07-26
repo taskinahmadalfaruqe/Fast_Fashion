@@ -1,4 +1,5 @@
-import CommonButton from '../../SharedComponent/Button/CommonButton';
+
+import CommonButton from '../../SharedComponent/CommonButton/CommonButton';
 import phone from '/phone.jpg';
 const ProductOfTheYear = () => {
     return (

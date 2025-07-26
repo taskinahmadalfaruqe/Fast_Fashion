@@ -1,4 +1,4 @@
-import CommonButton from "../../SharedComponent/Button/CommonButton";
+import CommonButton from "../../SharedComponent/CommonButton/CommonButton";
 
 const SaleBanner = () => {
   const sales = [
