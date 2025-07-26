@@ -2,10 +2,17 @@ import { useState } from 'react';
 import { MdFavoriteBorder } from 'react-icons/md';
 import pic from '/phone.jpg';
 import { FaBangladeshiTakaSign, FaCartShopping, FaCodeCompare } from 'react-icons/fa6';
+import { TbListDetails } from 'react-icons/tb';
+import { Navigate, useNavigate } from 'react-router-dom';
 
 const ProductCard = () => {
+    const ProductID = "D123222564579542569755";
     const [showMenu, setShowMenu] = useState(false);
-
+    const navigate = useNavigate();
+    const goProductDetails = () => {
+        console.log(ProductID);
+        navigate(`/ProductDetails/${ProductID}`);
+    };
     return (
         <div
             className="relative group bg-Card_Background_Color hover:bg-Hover_Card_Background_Color dark:bg-Dark_BG_Color rounded-bl-2xl rounded-tr-2xl p-3 lg:p-5 flex gap-5 justify-center items-center flex-col"
@@ -51,8 +58,13 @@ const ProductCard = () => {
                     <span>Add to Cart</span>
                     <FaCartShopping />
                 </div>
+                <div onClick={goProductDetails}
+                    className='flex gap-2 p-2 justify-end items-center hover:text-Black_Color cursor-pointer'>
+                    <span>Product Details</span>
+                    <TbListDetails />
+                </div>
             </div>
-        </div>
+        </div >
     );
 };
 

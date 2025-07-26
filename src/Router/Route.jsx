@@ -8,6 +8,7 @@ import AboutUS from "../Page/AboutUS/AboutUS";
 import Journal from "../Page/Journal/Journal";
 import SignUpPage from "../Page/SignUpPage/SignUpPage";
 import LoginPage from "../Page/LoginPage/LoginPage";
+import ProductDetails from "../Component/SharedComponent/ProductDetails/ProductDetails";
 
 const Router = createBrowserRouter([
     {
@@ -42,6 +43,10 @@ const Router = createBrowserRouter([
             {
                 path: '/auth/newUser/signUpPage',
                 element: <SignUpPage></SignUpPage>
+            },
+            {
+                path: "/ProductDetails/:id",
+                element: <ProductDetails></ProductDetails>
             },
 
         ]
