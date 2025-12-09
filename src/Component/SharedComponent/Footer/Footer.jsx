@@ -29,9 +29,9 @@ const Footer = () => {
         </>
     );
     return (
-        <div className='bg-Gray_Color'>
+        <div className='bg-Gray_Color container'>
            <div>
-            <div>LINk</div>
+            <div>LINK</div>
             <div></div>
             <div></div>
             <div></div>
