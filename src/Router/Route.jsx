@@ -5,10 +5,10 @@ import ErrorPage from "../Page/ErrorPage/ErrorPage";
 import ContactPage from "../Page/ContactPage/ContactPage";
 import ProductPage from "../Page/ProductPage/ProductPage";
 import AboutUS from "../Page/AboutUS/AboutUS";
-import Journal from "../Page/Journal/Journal";
 import SignUpPage from "../Page/SignUpPage/SignUpPage";
 import LoginPage from "../Page/LoginPage/LoginPage";
 import ProductDetails from "../Component/SharedComponent/ProductDetails/ProductDetails";
+import Feedback from "../Page/Feedback/Feedback";
 
 const Router = createBrowserRouter([
     {
@@ -33,8 +33,8 @@ const Router = createBrowserRouter([
                 element: <ContactPage></ContactPage>
             },
             {
-                path: '/Journal',
-                element: <Journal></Journal>
+                path: '/customerReview',
+                element: <Feedback></Feedback>
             },
             {
                 path: '/User/Login',

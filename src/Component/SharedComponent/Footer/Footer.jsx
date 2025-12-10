@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Footer = () => {
     const navLinks = [
@@ -6,9 +6,7 @@ const Footer = () => {
         { to: '/ProductPage', label: 'Shop' },
         { to: '/AboutUS', label: 'AboutUS' },
         { to: '/ContactPage', label: 'Contact' },
-        { to: '/Journal', label: 'Journal' },
-        { to: '/User/Login', label: 'Login' },
-        { to: '/auth/newUser/signUpPage', label: 'Signup' },
+        { to: '/customerReview', label: 'Feedback' },
     ];
     const renderNavItem = ({ to, label }) => (
         <NavLink
@@ -29,14 +27,15 @@ const Footer = () => {
         </>
     );
     return (
-        <div className='bg-Gray_Color container'>
-           <div>
-            <div>LINK</div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-           </div>
+        <div className='container'>
+
+            <div>
+                <div className='text-2xl font-bold'>Menu</div>
+                <div className='flex justify-cente flex-col gap-1'>
+                    {UserNavItems}
+                </div>
+            </div>
+
         </div>
     );
 };

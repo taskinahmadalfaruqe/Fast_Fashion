@@ -7,7 +7,7 @@ const navLinks = [
     { to: '/ProductPage', label: 'Shop' },
     { to: '/AboutUS', label: 'AboutUS' },
     { to: '/ContactPage', label: 'Contact' },
-    { to: '/Journal', label: 'Journal' },
+    { to: '/customerReview', label: 'Feedback' },
     { to: '/User/Login', label: 'Login' },
     { to: '/auth/newUser/signUpPage', label: 'Signup' },
 ];
