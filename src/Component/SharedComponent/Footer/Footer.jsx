@@ -27,15 +27,39 @@ const Footer = () => {
         </>
     );
     return (
-        <div className='container'>
+        <div className='bg-Card_Background_Color  dark:bg-Dark_BG_Color'>
+            <div className='container flex justify-evenly gap-5'>
 
-            <div>
-                <div className='text-2xl font-bold'>Menu</div>
-                <div className='flex justify-cente flex-col gap-1'>
-                    {UserNavItems}
+                {/* Footer Menu */}
+                <div className='flex-1'>
+                    <div className='text-2xl font-bold'>Menu</div>
+                    <div className='flex justify-center flex-col gap-1'>
+                        {UserNavItems}
+                    </div>
                 </div>
-            </div>
+                {/* Footer Category */}
+                <div  className='flex-1'>
+                    <div className='text-2xl font-bold'>Category</div>
+                    <div className='flex justify-cente flex-col gap-1'>
+                        {UserNavItems}
+                    </div>
+                </div>
+                {/* Footer Help */}
+                <div  className='flex-1'>
+                    <div className='text-2xl font-bold'>Help</div>
+                    <div className='flex justify-cente flex-col gap-1'>
+                        {UserNavItems}
+                    </div>
+                </div>
+                {/* Footer Copyright */}
+                <div  className='flex-1'>
+                    <div className='text-2xl font-bold'>Copyright</div>
+                    <div className='flex justify-cente flex-col gap-1'>
+                        {UserNavItems}
+                    </div>
+                </div>
 
+            </div>
         </div>
     );
 };
